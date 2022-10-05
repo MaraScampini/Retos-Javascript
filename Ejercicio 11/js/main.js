@@ -1,17 +1,17 @@
-let dia = prompt("Dime un día de la semana");
+let dia = prompt("Dime un día de la semana").toLowerCase();
 
 switch (dia) {
-    case 'Lunes':
-    case 'Martes':
-    case 'Miércoles':
-    case 'Jueves':
-    case 'Viernes':
+    case 'lunes':
+    case 'martes':
+    case 'miércoles':
+    case 'jueves':
+    case 'viernes':
 
         console.log("Es laboral");
         break;
 
-    case 'Sábado':
-    case 'Domingo':
+    case 'sábado':
+    case 'domingo':
 
         console.log("No es laboral");
         break;
